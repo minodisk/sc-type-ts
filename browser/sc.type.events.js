@@ -1,4 +1,3 @@
-var sc;
 (function (sc) {
     (function (type) {
         (function (events) {
@@ -95,5 +94,6 @@ var sc;
         var events = type.events;
     })(sc.type || (sc.type = {}));
     var type = sc.type;
-})(sc || (sc = {}));
+})(exports.sc || (exports.sc = {}));
+var sc = exports.sc;
 //@ sourceMappingURL=sc.type.events.js.map

@@ -1,4 +1,4 @@
-module sc.type.events {
+export module sc.type.events {
     class Event {
         public type: string;
         public data: any;

@@ -1,4 +1,4 @@
-module sc.type.events {
+export module sc.type.events {
 
   interface Receiver {
     listener:Function;

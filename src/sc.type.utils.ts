@@ -1,4 +1,4 @@
-module sc.type.utils {
+export module sc.type.utils {
 
   export module String {
 
